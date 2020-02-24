@@ -1,7 +1,7 @@
 // My Code
 package main
 
-import "GDP/4_Behavioural_1/chain_of_responsability"
+import chain_of_responsability "GDP/4_Behavioural_1/chain-of-responsability"
 
 func main() {
 	//t-chaining set of tasks which will be executed in one shot.
