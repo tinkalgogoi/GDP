@@ -1,12 +1,14 @@
 ## Creational : patterns in creations of objects
 #### Singleton :
+Sometimes we need to have only one instance of our class for example a single DB connection shared by multiple objects as creating a separate DB connection for every object may be costly. Similarly, there can be a single configuration manager or error manager in an application that handles all problems instead of creating multiple managers
 
 #### Builder : 
-Here we are dealing with repetitive building algorithms which is same for a set of objects.
+Here we are dealing with repetitive building algorithms which is same for creation of a set of objects.
 The Builder pattern helps us construct complex objects without directly instantiating their struct, or writing the logic they require. 
 
 
 #### Factory : 
+In Factory pattern, we create object without exposing the creation logic to client and the client use the same common interface to create new type of object.<br>
 With the Factory method, we delegate the creation of families of objects to a different package or object to abstract us from the knowledge of the pool of possible objects we could use.
 t- Gives particular kind of object implementing same interface based on user requirement. Here we are simplifying the creation of many types of objects.
 <br>t- ex- sql drivers where sql.open gets the required vendor db object based on driver.
