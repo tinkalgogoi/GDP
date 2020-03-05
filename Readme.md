@@ -83,6 +83,7 @@ t- publisher has all the observer interface objects and it notifies each observe
 
 <br><br>
 book - https://learning.oreilly.com/library/view/go-design-patterns/9781786466204/ <br>
+TODO:
 Try adding main method in each pattern.
-
+Fix code navigation in IDE and for github
 
